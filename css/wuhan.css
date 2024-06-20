@@ -1,0 +1,271 @@
+* {/*全局选择器*/
+    margin: 0px;
+    padding: 0px;
+}
+ 
+.header {
+    /*头部*/
+    width: 100%;
+    height: 150px;
+}
+
+body {  
+    /* 设置背景图片 */  
+    background-image: url('photo/1.jpg'); 
+  
+    /* 确保图片铺满整个背景 */  
+    background-size: cover;  
+  
+    /* 防止图片重复 */  
+    background-repeat: no-repeat;  
+  
+    /* 设置背景图片的位置 */  
+    background-position: center center; /* 居中显示 */  
+    margin: 0;  
+    padding: 0;  
+}
+
+#allcontent{
+    width: 1375px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#hi1 {
+    /*头部图片*/
+    width: 100%;
+    height: 150px;
+}
+ 
+img{/*图片设置*/
+    border-radius: 15px;/*边框弧度*/
+ 
+}
+ 
+.dh ul {
+    /*导航栏*/
+    width:100%;
+    padding: 0px;/*内边距*/
+    height: 50px;/*高度*/
+    margin-bottom: 30px;
+    margin-left: 10px;
+    overflow: hidden;
+}
+ 
+.dh ul li {/*导航栏列表*/
+    height: 30px;
+    width: 16.45%;
+    list-style: none;/*列表样式*/
+    float: left;/*左浮动*/
+    display: inline;/*行内显示*/
+    font: 0.9em;/*字体大小*/
+}
+.dh{/*导航高度*/
+    height: 30px;
+}
+.dh ul li a {/*导航链接设置*/
+    text-align: center;/*文字居中*/
+    color: white;
+    width: 100%;
+    font-size: larger;
+    font-family: 楷体;
+    text-decoration: none;/*下划线无*/
+    display: block;/*块显示*/
+    background-color: #497771;
+    line-height: 40px;
+    border-bottom: 1px solid rgb(168, 164, 172);/*底部边框*/
+}
+ 
+.dh ul li a:hover {
+    /*鼠标划导航栏时过时*/
+    color: rgb(0, 0, 0);
+    background-color: rgb(37, 84, 155);
+    border-bottom: 3px solid rgb(16, 4, 28);
+}
+ 
+.footer {
+    /*尾部*/
+    margin-top: 10px;
+    clear: both;/*清除浮动*/
+    width: 100%;
+    height: 70px;
+    background-color: #497771;
+    color:#44484d;
+    font: italic 14px/20px 宋体;/*字体设置*/
+    text-align: center;
+}
+.footer p{/*底部段落设置*/
+    margin-top: 10px;
+}
+
+.zhuti h2{/*主体标题设置*/
+    color: rgb(36, 44, 32);
+    font-family: 楷体;/*字体样式*/
+    margin-top: 20px;
+}
+.zhuti{/*主体设置*/
+    text-align: center;/*文本居中*/
+margin: 0px 200px 0px 200px;
+background-color: rgb(192,229,227)
+}
+#lou{/*介绍*/
+    margin-top: 20px;
+    height: 200px;
+    background-color: rgb(192,229,227);
+    font-size: x-large;
+    padding: 10px;
+    font-family: 楷体;
+}
+#lou p{
+    letter-spacing: 2px;/*字简介*/
+    text-indent: 2em;/*缩进*/
+    line-height: 1.5em;/*行高设置*/
+    font-size: large;
+ 
+}
+#lou img{
+    height: 200px;
+    width: 300px;
+    float: left;
+    margin: 0px 10px 0px 0px;
+}
+#lou img:hover {/*鼠标划过时*/
+    transform: scale(1.2);
+ 
+}
+ 
+#yuan{
+    margin-top: 20px;
+    height: 200px;
+    background-color: rgb(192,229,227);
+    font-size: x-large;
+    padding: 10px;
+    font-family: 楷体;
+}
+#yuan p{
+    letter-spacing: 2px;
+    text-indent: 2em;
+    line-height: 1.5em;
+    font-size: large;
+ 
+}
+#yuan img{
+    height: 200px;
+    width: 300px;
+    float: left;
+    margin: 0px 10px 0px 0px;
+}
+#yuan img:hover {
+    transform: scale(1.2);
+ 
+}
+ 
+#guan{
+    margin-top: 20px;
+    height: 200px;
+    background-color: rgb(192,229,227);
+    font-size: x-large;
+    padding: 10px;
+    font-family: 楷体;
+}
+#guan p{
+    letter-spacing: 2px;
+    text-indent: 2em;
+    line-height: 1.5em;
+    font-size: large;
+ 
+}
+#guan img{
+    height: 200px;
+    width: 300px;
+    float: left;
+    margin: 0px 10px 0px 0px;
+}
+#guan img:hover {/*鼠标划过时*/
+    transform: scale(1.2);
+ 
+}
+ 
+#ge{
+    margin-top: 20px;
+    height: 200px;
+    background-color: rgb(192,229,227);
+    font-size: x-large;
+    padding: 10px;
+    font-family: 楷体;
+}
+#ge p{
+    letter-spacing: 2px;
+    text-indent: 2em;
+    line-height: 1.5em;
+    font-size: large;
+ 
+}
+#ge img{
+    height: 200px;
+    width: 300px;
+    float: left;
+    margin: 0px 10px 0px 0px;
+}
+#ge img:hover {
+    transform: scale(1.2);
+ 
+}
+ 
+#wuda{
+    margin-top: 20px;
+    height: 200px;
+    background-color: rgb(192,229,227);
+    font-size: x-large;
+    padding: 10px;
+    font-family: 楷体;
+}
+#wuda p{
+    letter-spacing: 2px;
+    text-indent: 2em;
+    line-height: 1.5em;
+    font-size: large;
+ 
+}
+#wuda img{
+    height: 200px;
+    width: 300px;
+    float: left;
+    margin: 0px 10px 0px 0px;
+}
+#wuda img:hover {
+    transform: scale(1.2);
+ 
+}
+ 
+#si{
+    margin-top: 20px;
+    height: 200px;
+    background-color: rgb(192,229,227);
+    font-size: x-large;
+    padding: 10px;
+    font-family: 楷体;
+}
+#si p{
+    letter-spacing: 2px;
+    text-indent: 2em;
+    line-height: 1.5em;
+    font-size: large;
+ 
+}
+#si img{
+    height: 200px;
+    width: 300px;
+    float: left;
+    margin: 0px 10px 0px 0px;
+}
+#si img:hover {
+    transform: scale(1.2);
+ 
+}
+
+.zhuti a{/*主体超链接设置*/
+    text-decoration: none;
+}

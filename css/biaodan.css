@@ -1,0 +1,50 @@
+body {
+	background: #efe5d0 url(images/background.gif) top left;
+	margin: 400px;
+    /*主体*/
+    color: rgb(47, 66, 50);
+    /*颜色*/
+    font-family: 楷体;
+    /*字体样式*/
+    /* 设置背景图片 */  
+    background-image: url('photo/1.jpg'); 
+  
+    /* 确保图片铺满整个背景 */  
+    background-size: cover;  
+  
+    /* 防止图片重复 */  
+    background-repeat: no-repeat;  
+  
+    /* 设置背景图片的位置 */  
+    background-position: center center; /* 居中显示 */  
+    padding: 0;
+	margin-top: 100px;
+}
+
+form {
+	display: table;
+	padding: 10px;
+	border: thin dotted #2d302b;
+	background-color: #11160e;
+}
+
+div.tableRow {
+	display: table-row;
+}
+
+div.tableRow > p, div.tableRow > label, div.tableRow > input {
+	display: table-cell;
+	vertical-align: top;
+	padding: 3px;
+}
+div.tableRow label:first-child {
+	text-align: right;
+}
+form textarea {
+	display: table-cell;
+	width: 500px;
+	height: 200px;
+}
+legend {
+	font-weight: bold;
+}

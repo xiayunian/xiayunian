@@ -1,0 +1,448 @@
+* {
+    /*全局选择器*/
+    margin: 0px;
+    padding: 0px;
+}
+ 
+body {
+    /*主体*/
+    color: aliceblue;
+    /*颜色*/
+    font-family: 楷体;
+    /*字体样式*/
+    /* 设置背景图片 */  
+    background-image: url('photo/1.jpg');   
+  
+    /* 确保图片铺满整个背景 */  
+    background-size: cover;  
+  
+    /* 防止图片重复 */  
+    background-repeat: no-repeat;  
+  
+    /* 设置背景图片的位置 */  
+    background-position: center center; /* 居中显示 */ 
+    margin: 0;  
+    padding: 0;  
+}
+
+#allcontent {
+    /*冻结布局*/
+    width: 1375px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin:auto;
+}
+ 
+.header {
+    /*头部*/
+    width: 100%;
+    height: 150px;
+}
+ 
+#hi1 {
+    /*头部图片*/
+    width: 100%;
+    height: 150px;
+}
+ 
+.dh ul {
+    /*导航栏*/
+    width:100%;
+    padding: 0px;/*内边距*/
+    height: 50px;/*高度*/
+    margin-bottom: 30px;
+    margin-left: 10px;
+    overflow: hidden;
+}
+ 
+.dh ul li {
+    /*导航栏列表*/
+    height: 30px;
+    width: 16.45%;
+    list-style: none;
+    /*列表样式无*/
+    float: left;
+    /*左浮动*/
+    display: inline;
+    /*行内显示*/
+    font: 0.9em;
+}
+ 
+.dh ul li a {
+    /*导航栏超链接*/
+    text-align: center;
+    color: white;
+    width: 100%;
+    font-size: larger;
+    text-decoration: none;
+    /*下划线无*/
+    display: block;
+    background-color: #497771;
+    line-height: 40px;
+    border-bottom: 1px solid rgb(168, 164, 172);
+}
+ 
+.dh ul li a:hover {
+    /*鼠标划过时*/
+    color: rgb(0, 0, 0);
+    background-color: rgb(37, 84, 155);
+    border-bottom: 3px solid rgb(16, 4, 28);
+}
+ 
+.footer {
+    /*尾部*/
+    clear: both;
+    width: 100%;
+    height: 70px;
+    background-color: #497771;
+    color:#44484d;
+    font: italic 14px/20px 宋体;
+    text-align: center;
+}
+ 
+.footer p {
+    /*尾部段落*/
+    margin-top: 10px;
+}
+
+.zhuti {
+    /*主体*/
+    margin: 10px 150px 0px 150px;
+    background-color: burlywood;
+}
+ 
+#zhutiright {
+    width: 25%;
+    height: 400px;
+    background-color: rgb(161, 218, 144);
+    float: left;
+}
+ 
+#d1 {
+    font-family: 黑体;
+    font-size: 100%;
+    color: white;
+    float: left;
+    background-color: rgb(221, 189, 28);
+    width: 100px;
+    height: 20px;
+    padding: 5px 5px;
+    margin: 4px;
+}
+ 
+#d2 {
+    clear: both;
+}
+ 
+#zhutiright ul li {
+    /*列表设置*/
+    list-style-type: none;
+    /*列表样式无*/
+}
+ 
+#zhutiright ul {
+    /*列表设置*/
+    margin: 0px;
+    padding: 15px 10px 15px 10px;
+}
+ 
+#zhutiright ul li a {
+    /*列表超链接设置*/
+    display: block;
+    text-decoration: none;
+    color: black;
+    line-height: 30px;
+    border-bottom: 1px dashed black;
+    padding: 0px 0px 0px 0px;
+}
+ 
+#zhutiright span {
+    /*排列大小*/
+    float: right;
+}
+ 
+#zhutileft {
+    /*主体左边设置*/
+    width: 50%;
+    height: 400px;
+    background-color: aquamarine;
+    float: left;
+    overflow: hidden;
+    /*隐藏*/
+    border-radius: 5px;
+    /*弧度*/
+ 
+}
+ 
+#photo {
+    /*动画设置图片*/
+    display: block;
+    width: 3045px;
+    height: 400px;
+    animation: bj 8s linear infinite;
+    /*动画*/
+}
+ 
+#photo img {
+    /*图片设置*/
+    float: left;
+    width: 609px;
+    height: 100%;
+    padding: 0px 0px 0px 0px;
+}
+ 
+/*轮播图动画*/
+@keyframes bj {
+ 
+    0%,
+    20% {
+        margin-left: 0px;
+    }
+ 
+    25%,
+    40% {
+        margin-left: -609px;
+    }
+ 
+    45%,
+    60% {
+        margin-left: -1218px;
+    }
+ 
+    65%,
+    80% {
+        margin-left: -1827px;
+    }
+ 
+    85%,
+    100% {
+        margin-left: -2436px;
+    }
+}
+ 
+#zhutimain {
+    /*中间内容设置*/
+    width: 25%;
+    height: 400px;
+    background-color: rgb(108, 207, 182);
+    float: left;
+    text-align: center;
+}
+ 
+#zhutimain img {
+    /*中部图片设置*/
+    border-radius: 5px;
+    width: 250px;
+    height: 160px;
+    margin: 8px 0px 0px 0px;
+}
+ 
+#zhutimain img:hover {
+    /*划过中间图片设置*/
+    transform: scale(1.2);
+}
+ 
+#zhutimain h4 {
+    /*中间内容标题设置*/
+    color: rgb(247, 251, 245);
+}
+ 
+#zhutimain a {
+    /*中间内容超链接设置*/
+    text-decoration: none;
+    /*下划线无*/
+    color: rgb(49, 57, 49);
+}
+ 
+#zhutimain a:hover {
+    /*划过中间主体超链接设置*/
+    color: rgb(45, 72, 61);
+}
+ 
+#zhutimain p {
+    /*中间主体段落设置*/
+    margin: 3px 5px 0px 5px;
+    letter-spacing: 2px;
+    /*字间距设置*/
+    text-indent: 2em;
+    line-height: 1.5em;
+}
+ 
+#bottom {
+    /*底部四个div设置*/
+    width: 100%;
+    height: 300px;
+    clear: both;
+}
+ 
+#title1 {
+    float: left;
+    width: 24%;
+    height: 300px;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    border-style: solid;
+}
+ 
+#title1 img {
+    border-radius: 5px;
+    width: 250px;
+    height: 160px;
+    margin: 8px 0px 0px 0px;
+}
+ 
+#title1 img:hover {
+    /*图片设置*/
+    transform: scale(1.2);
+}
+ 
+#title1 h4 {
+    /*标题设置*/
+    color: brown;
+}
+ 
+#title1 a {
+    /*超链接设置*/
+    text-decoration: none;
+    color: rgb(16, 159, 21);
+}
+ 
+#mtitle1 a:hover {
+    /*划过超链接设置*/
+    color: rgb(120, 8, 109);
+}
+ 
+#title1 p {
+    /*段落设置*/
+    margin: 3px 5px 0px 5px;
+    letter-spacing: 2px;
+    text-indent: 2em;
+    line-height: 1.5em;
+}
+ 
+#title2 {
+    /*设置*/
+    float: left;
+    width: 25%;
+    height: 300px;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    border-style: solid;
+    border-left: none;
+}
+ 
+#title2 img {
+    border-radius: 5px;
+    width: 250px;
+    height: 160px;
+    margin: 8px 0px 0px 0px;
+}
+ 
+#title2 img:hover {
+    transform: scale(1.2);
+}
+ 
+#title2 h4 {
+    color: brown;
+}
+ 
+#title2 a {
+    text-decoration: none;
+    color: rgb(16, 159, 21);
+}
+ 
+#title2 a:hover {
+    color: rgb(120, 8, 109);
+}
+ 
+#title2 p {
+    margin: 3px 5px 0px 5px;
+    letter-spacing: 2px;
+    text-indent: 2em;
+    line-height: 1.5em;
+}
+ 
+#title3 {
+    /*设置*/
+    float: left;
+    width: 25%;
+    height: 300px;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    border-style: solid;
+    border-left: none;
+}
+ 
+#title3 img {
+    border-radius: 5px;
+    width: 250px;
+    height: 160px;
+    margin: 8px 0px 0px 0px;
+}
+ 
+#title3 img:hover {
+    transform: scale(1.2);
+}
+ 
+#title3 h4 {
+    color: brown;
+}
+ 
+#title3 a {
+    text-decoration: none;
+    color: rgb(16, 159, 21);
+}
+ 
+#title3 a:hover {
+    color: rgb(120, 8, 109);
+}
+ 
+#title3 p {
+    margin: 3px 5px 0px 5px;
+    letter-spacing: 2px;
+    text-indent: 2em;
+    line-height: 1.5em;
+}
+ 
+#title4 {
+    /*设置*/
+    float: left;
+    width: 25%;
+    height: 300px;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    border-style: solid;
+    border-left: none;
+}
+ 
+#title4 img {
+    border-radius: 5px;
+    width: 250px;
+    height: 160px;
+    margin: 8px 0px 0px 0px;
+}
+ 
+#title4 img:hover {
+    transform: scale(1.2);
+}
+ 
+#title4 h4 {
+    color: brown;
+}
+ 
+#title4 a {
+    text-decoration: none;
+    color: rgb(16, 159, 21);
+}
+ 
+#title4 a:hover {
+    color: rgb(120, 8, 109);
+}
+ 
+#title4 p {
+    margin: 3px 5px 0px 5px;
+    letter-spacing: 2px;
+    /*字间距设置*/
+    text-indent: 2em;
+    line-height: 1.5em;
+}

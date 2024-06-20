@@ -1,0 +1,69 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>调查问卷</title>
+	<link rel="stylesheet" href="css/biaodan.css">
+  </head>
+  <body>
+    
+    <h1>调查问卷</h1>
+    <h2>填写完记得提交吖！</h2>
+	<fieldset>
+		<legend>旅游信息</legend>
+		<div class="tableRow">
+			<label for="beans">
+          		选择你去过的地点:
+			</label>
+            <select id="beans" name="beans">
+              <option value="House Blend">大连</option>
+              <option value="Bolivia">广东</option>
+              <option value="Guatemala">武汉</option>
+              <option value="Guatemala">武功山</option>
+			  <option value="Guatemala">湘西</option>
+            </select>
+		</div>
+		<div class="tableRow">
+			<label for="bags">几个人去的</label>
+			<input type="number" id="peopleCount" name="peopleCount" min="1" max="10">
+		</div>
+		<div class="tableRow">
+			<label for="date">出发时间</label>
+			<input type="date" name="date">
+		</div>
+		<div class="tableRow">
+			<label for="bags">总体评分</label>
+			<input type="number" id="rating" name="rating" min="1" max="10">
+		</div>
+	</fieldset>
+	<fieldset>
+		<legend>你的个人信息</legend>
+		<div class="tableRow">
+			<label for="name">姓名：</label>
+			<input type="text" id="name" name="name" value="" placeholder="Buckaroo Banzai" required> 
+		</div>
+		<div class="tableRow">
+			<label for="birthYear">出生年份</label>
+			<input type="date" id="birthYear" name="birthYear" min="1900"max="2024"placeholder="Los Angeles" required> 
+		</div>
+		<div class="tableRow">
+			<label for="city">所在城市</label>
+			<input type="text" id="city" name="city" value="" placeholder="Los Angeles" required> 
+		</div>
+		<div class="tableRow">
+			<label for="phone">电话号码</label>
+			<input type="tel" id="phone" name="phone" value="" placeholder="310-555-1212" required>
+		</div>
+		<div class="tableRow">
+			<label for="comments">关于旅游你的感想</label>
+            <textarea id="comments" name="comments"></textarea>
+		</div>
+		<div class="tableRow">
+			<label></label>
+			<input type="submit" value="提交">
+		</div>
+	</fieldset>
+    </form>
+  </body>
+</html>
+

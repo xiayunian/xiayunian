@@ -1,0 +1,391 @@
+* {
+    /*全局选择器*/
+    margin: 0px;
+    padding: 0px;
+}
+ 
+.header {
+    /*头部*/
+    width: 100%;
+    height: 130px;
+}
+ 
+body {  
+    /* 设置背景图片 */  
+    background-image: url('photo/1.jpg'); 
+  
+    /* 确保图片铺满整个背景 */  
+    background-size: cover;  
+  
+    /* 防止图片重复 */  
+    background-repeat: no-repeat;  
+  
+    /* 设置背景图片的位置 */  
+    background-position: center center; /* 居中显示 */  
+    margin: 0;  
+    padding: 0;  
+}
+
+#allcontent {
+    /*冻结布局*/
+    width: 1375px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin:auto;
+}
+
+#hi1 {
+    /*头部图片*/
+    width: 100%;
+    height: 150px;
+}
+ 
+.dh {
+    height: 50px;
+    margin-top: 20px;
+}
+
+.dh ul {
+    /*导航栏*/
+    width:100%;
+    padding: 0px;/*内边距*/
+    height: 50px;/*高度*/
+    margin-bottom: 30px;
+    margin-left: 10px;
+    overflow: hidden;
+}
+
+.dh ul li {
+    /*列表设置*/
+    height: 30px;
+    width: 16.45%;
+    list-style: none;
+    /*列表样式*/
+    float: left;
+    display: inline
+        /*行内显示*/
+}
+ 
+.dh ul li a {/*导航栏链接设置*/
+    text-align: center;/*文本位置*/
+    color: white;
+    font-size: larger;/*字体大小*/
+    font-family: 楷体;
+    width: 100%;
+    margin: 0px;
+    text-decoration: none;/*列表样式*/
+    display: block;
+    background-color: #497771;
+    line-height: 40px;
+    border-bottom: 0px solid rgb(168, 164, 172);
+}
+ 
+.dh ul li a:hover {
+    /*鼠标划过时*/
+    color: rgb(0, 0, 0);
+    background-color: rgb(37, 84, 155);
+    border-bottom: 3px solid rgb(16, 4, 28);
+}
+ 
+.footer {
+    /*尾部*/
+    clear: both;/*浮动清空*/
+    width: 100%;
+    height: 70px;
+    background-color: #497771;
+    color:#44484d;
+    font: italic 14px/20px 宋体; /*字体设置*/
+    text-align: center;
+}
+ 
+.footer p {
+    margin-top: 10px;
+}
+ 
+#city {
+    /*简介*/
+    clear: both;
+    /*浮动清除*/
+    margin-top: 30px;
+    background-color: #e1f2ed;
+    padding: 15px;
+    border-color: rgb(29, 76, 54);
+    border-style:inherit;
+    /*虚线 */
+    border-radius: 50px;
+}
+ 
+#city img {
+    /*城市图片*/
+    border-radius: 5%;
+    /*边框弧度*/
+    width: 150px;
+    height: 150px;
+    float: left;
+    /*左浮动*/
+    margin: 5px 10px 0px 5px;
+}
+ 
+#city img:hover {
+    /*图片划过时*/
+    transform: scale(1.2);
+    /*图片放大*/
+}
+ 
+#city p {
+    /*城市文本设置*/
+    letter-spacing: 2px;
+    /*字体间隔*/
+    text-indent: 2em;
+    /*缩进*/
+    line-height: 1.5em;
+}
+ 
+#first {
+    clear: both;
+    /*浮动清除*/
+    margin-top: 20px;
+    padding: 5px;
+    height: 200px;
+    background-color:#e1f2ed;
+    border-color:rgb(29, 76, 54);
+    border-style:inherit;
+    /*虚线*/
+    border-radius: 50px;
+ 
+}
+
+#first p {
+    /*文本设置*/
+    letter-spacing: 2px;
+    /*字间距*/
+    text-indent: 2em;
+    /*缩进*/
+    line-height: 1.5em;
+}
+
+#zao {
+    /*图片*/
+    border-radius: 5%;
+    /*图片弧度*/
+    width: 150px;
+    height: 150px;
+    float: left;
+    /*左浮动*/
+    margin: 5px 10px 0px 5px;
+}
+ 
+#zao:hover {
+    /*划过图片时*/
+    transform: scale(1.2);
+    /*图片放大*/
+ 
+}
+
+#second {
+    /**/
+    clear: both;
+    /*清除浮动*/
+    padding: 15px;
+    margin-top: 20px;
+    background-color:#e1f2ed;
+    border-color:rgb(29, 76, 54);
+    border-style:inherit;
+    /*虚线*/
+    border-radius: 50px;
+ 
+}
+ 
+#second img {
+    border-radius: 5%;
+    /*图片弧度*/
+    width: 150px;
+    height: 150px;
+    float: left;
+    /*左浮动*/
+    margin: 5px 10px 0px 5px;
+}
+ 
+#second img:hover {
+    /*鼠标划过时*/
+    transform: scale(1.2);
+    /*图片放大*/
+}
+ 
+#second p {
+    /*文本设置*/
+    letter-spacing: 2px;
+    /*字间间距*/
+    text-indent: 2em;
+    line-height: 1.5em;
+}
+ 
+#third {
+    clear: both;
+    padding: 15px;
+    margin-top: 20px;
+    background-color:#e1f2ed;
+    border-color:rgb(29, 76, 54);
+    border-style:inherit;
+    /*虚线*/
+    border-radius: 50px;
+    /*边框弧度*/
+ 
+}
+ 
+#thirs p {
+    letter-spacing: 2px;
+    /*字间距*/
+    text-indent: 2em;
+    /*缩进*/
+    line-height: 1.5em;
+}
+ 
+#third img {
+    border-radius: 5%;
+    /*图片弧度*/
+    width: 150px;
+    height: 150px;
+    float: left;
+    /*左浮动*/
+    margin: 5px 10px 0px 5px;
+}
+
+#third img:hover {
+    transform: scale(1.2);
+}
+ 
+#fourth {
+    clear: both;
+    padding: 15px;
+    margin-top: 20px;
+    background-color:#e1f2ed;
+    border-color:rgb(29, 76, 54);
+    border-style:inherit;
+    /*虚线*/
+    border-radius: 50px;
+    /*边框弧度*/
+ 
+}
+ 
+#fourth p {
+    letter-spacing: 2px;
+    /*字间距*/
+    text-indent: 2em;
+    /*文段缩进*/
+    line-height: 1.5em;
+}
+ 
+#fourth img {
+    width: 150px;
+    height: 100px;
+    float: left;
+    margin: 5px 10px 0px 10px;
+    border-radius: 5px;
+ 
+}
+ 
+#fourth img:hover {
+    /*鼠标划过时资源图片*/
+    transform: scale(1.2);
+}
+
+#fifth {
+    clear: both;
+    padding: 15px;
+    margin-top: 20px;
+    background-color:#e1f2ed;
+    border-color:rgb(29, 76, 54);
+    border-style:inherit;
+    /*虚线*/
+    border-radius: 50px;
+ 
+}
+ 
+#fifth p {
+    letter-spacing: 2px;
+    text-indent: 2em;
+    line-height: 1.5em;
+}
+ 
+#fifth img {
+    width: 800px;
+    height: 400px;
+    margin: 5px 10px 0px 10px;
+    border-radius: 5px;
+ 
+}
+ 
+#fifth img:hover {
+    /*鼠标划过时的区划图片*/
+    transform: scale(1.2);
+}
+ 
+ 
+.mulu {
+    /*页面目录*/
+    float: left;
+    /*左浮动*/
+    width: 200px;
+    margin-top: 30px;
+    background-color: rgb(202,240,228);
+}
+
+.mulu ul li {
+    /*列表设置*/
+    list-style-type: none;
+}
+ 
+.mulu ul {
+    /*目录块*/
+    margin: 0px;
+    padding: 15px 10px 15px 10px;
+}
+ 
+.mulu ul li a {
+    /*目录超链接设置*/
+    display: block;
+    text-decoration: none;
+    /*下划线无*/
+    color:#44484d;
+    line-height: 30px;
+    /*行高*/
+    border-bottom: 1px dashed black;
+    /*底部边框*/
+    padding: 0px 0px 0px 0px;
+}
+ 
+.mulu ul li a:hover {
+    /*鼠标划过时目录时*/
+    color:#5db199;
+}
+ 
+.mulu span {
+    /*目录链接块*/
+    float: right;
+}
+ 
+#d1 {
+    /*目录块大小设置*/
+    font-family: 黑体;
+    font-size: 100%;
+    /*字体大小*/
+    color: white;
+    float: left;
+    background-color: #5db199;
+    width: 70px;
+    height: 20px;
+    padding: 5px 5px;
+    margin: 4px;
+}
+ 
+#d2 {
+    /*目录内容块设置*/
+    clear: both;
+}
+
+.zhuti {
+    /*主体*/
+    background-color:rgb(192,229,227);
+    margin: 0px 200px 0px 300px;
+}
